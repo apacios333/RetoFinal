@@ -1,0 +1,12 @@
+@import '../colors.scss';
+.Genres {
+    padding: 1em;
+    background-color: $mysalmon;
+    a{
+        all:unset;
+        cursor:pointer;
+    }
+    a:visited{
+        color:$mydark;
+    }
+}

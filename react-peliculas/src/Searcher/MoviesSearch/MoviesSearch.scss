@@ -1,0 +1,26 @@
+@import '../../colors.scss';
+
+.MoviesSearch {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: $mysalmon;
+    padding: 1em;
+    text-align: center;
+    img {
+        border-radius: 0.8em;
+        height: 17em;
+        width: 12em;
+    }
+    .movie{
+        width: 15em; 
+    }
+    a{
+        all:unset;
+        cursor:pointer;
+    }
+    a:visited{
+        color:$mydark;
+    }
+}

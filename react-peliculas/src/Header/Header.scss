@@ -1,0 +1,6 @@
+@import '../colors.scss';
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: $mydark;
+}
