@@ -1,0 +1,60 @@
+@import '../../colors.scss';
+.MovieDetails {
+    display: flex;
+    flex-direction: column;
+    background-color: $mybluedark;
+    color: $mywhite;
+    border-radius: 0.5em;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center;
+    img {
+        border-radius: 0.8em;
+    }
+    a{
+        all:unset;
+        cursor:pointer;
+    }
+    a:visited{
+        color:$mydark;
+    }
+    .Detail{
+        display: flex;
+        flex-direction: row;
+        .DetailName{
+            margin: 0.5em;
+        }
+        .DetailSummary{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0.5em;
+        }
+        
+    }
+    .Cast, .SimilarMovies{
+        display: flex;
+        flex-direction: row nowrap;
+        justify-content: space-around;
+        border-radius: 0.3em;
+        color: $mydark;
+        padding: 1em;
+        text-align: center;
+        overflow-x: scroll;
+        img{
+            width: 8em;
+        }
+        .movie, .Actor{
+            width: 8em;         
+        }
+    }
+    .Cast{
+        background-color: $myblueligth;
+        align-items: flex-start;
+    }
+    .SimilarMovies{
+        background-color: $mysalmon;
+        align-items: flex-end;
+    }
+}
