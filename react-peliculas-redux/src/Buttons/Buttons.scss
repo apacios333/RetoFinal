@@ -1,0 +1,25 @@
+@import '../colors.scss';
+.Buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0.5em;
+    color: $mywhite;
+    
+    a{
+        all:unset;
+        padding: 0.5em;
+        border-radius: 0.4em;
+        background-color: $myblue;
+        color: $mywhite;
+        cursor: pointer;
+    }
+
+    
+    a:hover {
+        background-color: $myblueligth;
+        color: $mydark;
+    }
+}
+
+
